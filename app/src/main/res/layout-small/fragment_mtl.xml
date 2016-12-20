@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/headr_button">
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_arrow_back_white_24dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/mtl_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/cgv"
+            android:textColor="@color/md_white_1000"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/webview_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </WebView>
+
+</LinearLayout>

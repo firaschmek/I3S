@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_terminerRonde"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="12dp"
+        android:background="@color/orangeA700"
+        android:text="@string/terminer_ronde"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv_suiv_ronde1"
+        android:src="@drawable/info"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv_suiv_ronde2"
+        android:src="@drawable/info"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde1"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv_suiv_ronde3"
+        android:src="@drawable/info"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde2"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv_suiv_ronde4"
+        android:src="@drawable/info"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde3"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv_suiv_ronde5"
+        android:src="@drawable/info"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde4"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_mainCourante"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+       android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="12dp"
+        android:background="@color/orangeA700"
+        android:text="@string/scan"/>
+</RelativeLayout>

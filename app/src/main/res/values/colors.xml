@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+<color name="color_login_btn">#5c6bc0</color>
+    <color name="teal300">#4db6ac</color>
+    <color name="teal400">#26a69a</color>
+    <color name="teal500">#009688</color>
+    <color name="blue_grey50">#eceff1</color>
+    <color name="orangeA400">#ff9100</color>
+    <color name="orangeA700">#ff6d00</color>
+    <color name="orange900">#e65100</color>
+    <color name="orange300">#ffb74d</color>
+    <color name="brown900">#3e2723</color>
+    <color name="blue900">#1a237e</color>
+    <color name="light_blue800">#0277bd</color>
+    <color name="headr_button">#222c65</color>
+    <color name="yellow">#f89b1c</color>
+    <color name="grey400">#bdbdbd</color>
+</resources>

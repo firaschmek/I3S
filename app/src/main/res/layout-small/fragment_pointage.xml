@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pointage_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_grey50"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/heur_travail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/heure_travail"
+
+        android:textColor="@color/light_blue800"
+        android:textSize="40sp"
+        />
+
+    <ImageView
+        android:id="@+id/fa_icon_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@+id/heur_travail"
+        android:src="@drawable/time"
+        android:textColor="@color/md_white_1000"
+        android:textSize="50sp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/prise_service_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heur_travail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="--/--"
+        android:background="@color/grey400"
+        android:textSize="40sp"
+        android:drawablePadding="50dp"
+        android:drawableLeft="@drawable/login"/>
+
+
+
+
+    <TextView
+        android:id="@+id/fin_service_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prise_service_txtv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="--/--"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:drawablePadding="50dp"
+        android:background="@color/grey400"
+        android:drawableLeft="@drawable/logout"/>
+
+    <ImageView
+        android:id="@+id/btn_pointer"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/qr_code"
+
+        />
+
+
+</RelativeLayout>

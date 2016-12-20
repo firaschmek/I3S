@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">I3S</string>
+    <string name="dialog_OK">OK</string>
+    <string name="dialog_CANCEL">CANCEL</string>
+    <string name="copyright_reserved">Copyright © 2016 XXXX. All rights reserved.</string>
+    <string name="dialog.fragment_exit_popup_body">Êtes-vous sûr de vouloir quitter l application ?</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="mot_de_pass">Mot de passe</string>
+    <string name="se_souvenir">Se souvenir de moi</string>
+    <string name="montrons_ligale"><a><u> Mentions légales</u></a>  -</string>
+    <string name="cgv"><a><u>CGV</u></a></string>
+    <string name="pwd_oublie1">Mot de passe oublié ?</string>
+    <string name="pwd_oublie2">oublié ?</string>
+    <string name="mani_courante_drawer">Main courante</string>
+    <string name="pointage_drawer">Pointage</string>
+<string name="suivi_ronde_drawer">Suivi des rondes</string>
+<string name="sos_drawer">SOS</string>
+    <string name="quitter_drawer">Quitter</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="fa_icon_clock">&#xf017;</string>
+    <string name="heure_travail">08:30-16:30</string>
+    <string name="fa_chevron_circle_right">&#xf138;</string>
+    <string name="fa_chevron_circle_left">&#xf137;</string>
+    <string name="btn_pointer">pointer</string>
+    <string name="msg_confirmation_pointage">Etes vous sur de vouloir pointer la prise de service ou la fin de service?</string>
+    <string name="msg_activation_gps">Merci de vouloir activer votre GPS</string>
+    <string name="cgv_txt">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</string>
+  <string name="login_btn_str">connexion</string>
+    <string name="main_courant"> main courante</string>
+    <string name="terminer_ronde">terminer la ronde</string>
+    <string name="dernier_pointage">Dernier Pointage</string>
+    <string name="terminer_ronde_msg_dialog"> etes vous sur de vouloir terminer la ronde ?</string>
+    <string name="scan">scan</string>
+<string name="autorisation_camera">Autorisez vous l utilisation de votre caméra</string>
+    <string name="sos">sos</string>
+    <string name="sos_msg_confirmation">etes vous sur de vouloi envoyer un sos ?</string>
+    <string name="date_str">Date</string>
+    <string name="titre_str">Titre</string>
+    <string name="Type_str">Type</string>
+    <string-array name="type_array">
+        <item>type 1</item>
+        <item>type 2</item>
+        <item>type 2</item>
+        <item>type 3</item>
+
+    </string-array>
+
+
+</resources>

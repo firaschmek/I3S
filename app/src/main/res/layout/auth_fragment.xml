@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange300"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/lang_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/lang_circle"
+      android:src="@drawable/france"/>
+    <ImageView
+        android:id="@+id/logo_login_form"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:layout_below="@+id/lang_txtv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logosoc" />
+    <EditText
+        android:id="@+id/identifiant_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_login_form"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/identifiant"
+        android:textAlignment="center"
+        android:textColor="@color/brown900"
+        android:textColorHint="@color/brown900"
+
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pwd_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/identifiant_login_form"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/mot_de_pass"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/brown900"
+        android:textColorHint="@color/brown900"
+        android:textSize="20sp" />
+
+    />
+    <CheckBox
+        android:id="@+id/se_souvenir_login_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pwd_login_form"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:lines="2"
+        android:text="@string/se_souvenir"
+        android:textAlignment="center"
+        android:textColor="@color/brown900"
+
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pwd_oublie1_login_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pwd_login_form"
+        android:layout_marginRight="20dp"
+        android:layout_alignBaseline="@+id/se_souvenir_login_form"
+        android:text="@string/pwd_oublie1"
+        android:textAlignment="center"
+        android:textColor="@color/brown900"
+        android:textSize="15sp"></TextView>
+
+    <TextView
+        android:id="@+id/pwd_oublie2_login_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pwd_oublie1_login_form"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/pwd_oublie2"
+        android:textAlignment="center"
+        android:textColor="@color/brown900"
+        android:textSize="15sp"></TextView>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/pwd_login_form"
+        android:layout_marginTop="65dp"
+       android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="12dp"
+        android:background="@color/orangeA700"
+        android:text="@string/login_btn_str"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="10dp"
+        android:text="@string/montrons_ligale"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/brown900"
+        android:textSize="15sp"
+        android:id="@+id/montrons_legales" />
+
+    <TextView
+        android:id="@+id/cgv_login_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/montrons_legales"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/cgv"
+        android:textAlignment="center"
+        android:textColor="@color/brown900"
+        android:textSize="15sp" />
+
+</RelativeLayout>

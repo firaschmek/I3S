@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pointage_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_grey50">
+    <RelativeLayout
+        android:id="@+id/header_pointage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/teal300"
+        >
+        <TextView
+            android:id="@+id/fa_icon_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="@string/fa_icon_clock"
+            android:textColor="@color/md_white_1000"
+            android:textSize="80sp" />
+        <TextView
+            android:id="@+id/heur_travail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fa_icon_clock"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/heure_travail"
+            android:textColor="@color/md_white_1000"
+            android:textSize="80sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_pointer"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock_open_white_24dp"/>
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/prise_service_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--/--"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        android:layout_below="@+id/header_pointage"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/icon_prise_service_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/prise_service_txtv"
+        android:text="@string/fa_chevron_circle_right"
+        android:textSize="80sp"
+
+        android:layout_toLeftOf="@+id/prise_service_txtv"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:id="@+id/fin_service_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--/--"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        android:layout_below="@+id/prise_service_txtv"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/icon_prise_finservice_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fin_service_txtv"
+        android:text="@string/fa_chevron_circle_left"
+        android:textSize="80sp"
+
+        android:layout_toLeftOf="@+id/prise_service_txtv"
+        android:layout_marginRight="50dp"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

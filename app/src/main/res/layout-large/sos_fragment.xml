@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/siren"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_sos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/pwd_login_form"
+       android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="12dp"
+        android:textColor="@color/md_white_1000"
+        android:background="@color/headr_button"
+        android:textSize="40sp"
+        android:text="@string/sos"/>
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ronde_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="ronde name"
+        android:background="@color/light_blue800"
+android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fréquence: Chaque 2 heures"
+        android:layout_below="@+id/ronde_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:id="@+id/imgv_suiv_ronde1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="70dp"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imgv_suiv_ronde2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde1"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imgv_suiv_ronde3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde2"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imgv_suiv_ronde4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde3"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imgv_suiv_ronde5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde4"
+        android:src="@drawable/info" />
+    <ImageView
+        android:id="@+id/imgv_go_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imgv_suiv_ronde5"
+        android:src="@drawable/right_arrow_list" />
+
+    <TextView
+        android:id="@+id/ronde_timetxtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgv_suiv_ronde1"
+
+        android:layout_marginTop="5dp"
+        android:text="@string/dernier_pointage"
+        />
+
+    <TextView
+        android:id="@+id/ronde_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ronde_timetxtv"
+
+        android:layout_marginTop="5dp"
+        android:text="  -- /  --"
+
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
